@@ -1,0 +1,7 @@
+global:
+  scrape_interval:1s
+
+scrape_configs:
+  - job-name: 'go-backend'
+  static_configs:
+  - targets: ['go-backend:8080']
